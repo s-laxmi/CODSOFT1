@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+    
+  background:linear-gradient(90deg,#0b3e27,#197149);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+section {
+  padding: 2rem;
+}
+
+.about{
+  background: #f4f4f4;
+  margin: 1rem 0;
+  padding: 1rem;
+  text-align: justify;
+}
+h2 {
+  color: #333;
+}
+ul {
+  list-style: square;
+  padding-left: 1.5rem;
+}
+.project {
+  background: #f4f4f4;
+  margin: 1rem 0;
+  padding: 1rem;
+  text-align: justify;
+}
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+#img{
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+.container col-xxl-8 px-4 py-5{
+ background:linear-gradient(90deg,#0b3e27,#197149);
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+.text-secondary {
+    --bs-text-opacity: 1;
+    color: rgb(184 214 240) !important;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #0f3524 !important;
+}
